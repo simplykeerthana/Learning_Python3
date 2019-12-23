@@ -8,3 +8,7 @@ Touch - to create files
 Open - to open a fiel
 
 Open -a "Sublime Text" // to open a file in a specific application. 
+
+mv index.html about.html // to change the name of the html file
+
+rm index.html // to remove the html file 
