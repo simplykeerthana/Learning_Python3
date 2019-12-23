@@ -1,0 +1,14 @@
+- Interpreters translate line by line  and execute the line before going to the next line compilers translate all the lines of program. 
+
+- Python uses an interpreter rather than a compiler. (Translates our code to machine language. 
+
+- Interpreter C Python  creates something called a byte code. 
+- The byte code is run on the Python Virtual Machine that creates the machine code.
+
+- Python can be used for small scripts, extensive data science and machine learning. 
+
+-  Development Environment
+- Terminal
+- Code Editors: sublime editors and visual studio code
+- IDEs - PyCharm and Spyder. 
+- Notebooks - Jupyter
