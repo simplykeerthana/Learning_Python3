@@ -21,5 +21,14 @@ Python 2 vs Python3 creator Guido
 Python is named after a British Company
 
 - programming languages are evolving they are constantly updated.
+- python 3 is completely different from python 2 because it had completely different new features. 
+- so python 2 and python 3 became completely different. 
+
+Ex. Python 2 print statement is >>>> print 'Hello, Geeks'
+
+    Python 3 print statement is >>>> print('hello python 3 lovers')
+
+Python 2 is gonna become a legacy by 2020. So the industry would completely be moving to Python3. 
+
 
 
