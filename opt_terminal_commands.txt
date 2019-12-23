@@ -1,0 +1,10 @@
+>>>> Optional command line terminal commands
+
+ls - lists everything in the current directory
+Cd - to change directory
+pwd shows the current working directory
+mkdir  - to create a folder
+Touch - to create files
+Open - to open a fiel
+
+Open -a "Sublime Text" // to open a file in a specific application. 
