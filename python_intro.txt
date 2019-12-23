@@ -14,3 +14,12 @@ Python Professional Developers Tools.
 - Code Editors: sublime editors and visual studio code
 - IDEs - PyCharm and Spyder. 
 - Notebooks - Jupyter
+
+
+Python 2 vs Python3 creator Guido
+
+Python is named after a British Company
+
+- programming languages are evolving they are constantly updated.
+
+
