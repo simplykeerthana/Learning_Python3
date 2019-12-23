@@ -28,4 +28,15 @@ print(5 % 4) # modular to get the remainder is 1
 
 print( 2 ** 2) # the power of 2 
 
-float 
+
+
+#math functions are like actions . 
+
+print('Rounding numbers using the round() function')
+
+print(round(3.4))
+print(round(3.5))
+
+print('absoulte function using the abs() ')
+print(abs(3.4)) #abs of positive num is positive
+print(abs(-3.4))
