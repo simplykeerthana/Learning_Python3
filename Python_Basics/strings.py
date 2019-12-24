@@ -58,7 +58,7 @@ print(weather)
 
 #when in doubt just go to python documentation. 
 
-#formatted strings 
+#formatted strings, a new feautre of Python3
 # add f in front of the beginning of the string
 name = 'Johnny'
 age = "46"
