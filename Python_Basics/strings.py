@@ -50,6 +50,9 @@ b = int(a)
 c = type(b)
 print(c)
 
+#escape sequences \ is used for escape sewuences
 
+weather = 'It\'s cold'
 
+print(weather)
 
