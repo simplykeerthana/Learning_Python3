@@ -43,3 +43,15 @@ matrix = [
 
 print(matrix[0][1]  ) # [row][column]
 
+#list methods
+
+basket = [1,2,3,4,5]
+basket.append(100)
+#everything in python is a object
+
+#append does not pro
+
+
+new_list = basket
+print(basket)
+print(new_list) # result is non
