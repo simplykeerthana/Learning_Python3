@@ -51,3 +51,10 @@ print(user.pop('age'))
 #user.popitem() randomly pops a pair off the dictionary
 
 print(user.update({'age': 55}))
+print(user.get('age'))
+
+
+#tuple is an immutable list, you cannot modify them
+
+my_tuple = (1,2,3,4,5)
+print(my_tuple[1])
