@@ -11,6 +11,7 @@ print(dictionary['b']) #grabs the value of the key
 # a dictionary is an unordered key value pair. we just need the key to grab the values
 
 # when shoud you use a list and dictionary
+# unordered , key, value pairs-> dictionary
 #ordered -> lisgs
 
 
@@ -46,3 +47,6 @@ print(user.items()) #prints everything in the dictionary
 # user2 = user.copy()
 
 print(user.pop('age'))
+
+#user.popitem() randomly pops a pair off the dictionary
+
