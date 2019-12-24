@@ -52,7 +52,7 @@ print(c)
 
 #escape sequences \ is used for escape sewuences
 
-weather = 'It\'s cold'
+weather = "It\'s \"kind of  cold\" \n hope you have a good day"
 
 print(weather)
 
