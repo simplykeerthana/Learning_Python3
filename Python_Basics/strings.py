@@ -56,3 +56,16 @@ weather = "It\'s \"kind of  cold\" \n hope you have a good day"
 
 print(weather)
 
+#when in doubt just go to python documentation. 
+
+#formatted strings 
+# add f in front of the beginning of the string
+name = 'Johnny'
+age = "46"
+print('hi' + name + '. You are' + str(age) + 'years old')
+
+print("Formatted string version")
+
+print(f'hi {name}. You are {age} years old')
+
+
