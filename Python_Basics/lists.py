@@ -110,6 +110,22 @@ print(list(range(100))) #prints numbers from 0 to 99
 
 # .join() for strings
 
-sentence = '' ; empty strings
-sentence.join['hi', 'my', 'name', 'is', 'boo']
-print(sentence)
+
+# empty strings
+new_sentence = ' '.join(['hi', 'my', 'name', 'is', 'boo'])
+print(new_sentence)
+
+#list unpacking
+
+a,b,c, *other,d =  [1,2,3,4,5,6,7,8,9]
+
+print(a)
+print(b)
+print(c)
+
+#list unpack to give with * 
+print(other)
+print(d)
+
+
+
