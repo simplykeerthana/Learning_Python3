@@ -31,3 +31,14 @@ print(bool(1)) #value is true
 
 print(bool(0)) #value is false 
 
+print("Using true of false through boplean function")
+print(bool('true'))
+print(bool('false'))
+
+#type conversions 
+
+name = 'Jeremy Irons'
+age =  34
+
+relationship_status = 'single'
+relationship _status = 'It\'s complicates' 
