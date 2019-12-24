@@ -53,9 +53,8 @@ basket.append(100)
 basket.insert(4,100)
 basket.extend([100,101]) # add to the end of the list
 #append does not pro
-
-
- new_list = basket
+# 
+new_list = basket
 print(basket)
 print(new_list) # result is non
 
@@ -80,7 +79,26 @@ print(basket1.index('d'))
 print('x' in basket1)
 print('a' in basket1)
 
-print("the value d occurs" + basket.count('d')) # counts the number of times a value occurs in the lsit
+print(basket1.count('d')) # counts the number of times a value occurs in the lsit
 print(basket1)
 basket1.sort()
-print("The sorted basket in ascending order is ") # sorts 
+print( basket1) # sorts 
+
+basket1.extend('a')
+print(sorted(basket1)) # sorted does not sort in memory 
+basket1.sort()
+basket1.reverse() #this number reverses but not sorts 
+print(" The reverse of the string is ")
+print(basket1)
+
+copy_basket = basket1.copy() # copies all the elements to the new variable. 
+
+
+print(copy_basket)
+
+
+# common list patterns, uses len() a lot
+
+#reversing the basket again using list slicing
+
+print(basket1[::-1])
