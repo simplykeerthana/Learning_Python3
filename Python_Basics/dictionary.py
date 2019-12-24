@@ -70,3 +70,4 @@ print(new_tuple)
 
 print(my_tuple.count(5)) #prints the number of 5 in the tuple
 
+print(my_tuple.index(5)) #returns and prints the first index where 5 is found
