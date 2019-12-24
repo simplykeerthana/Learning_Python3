@@ -9,8 +9,37 @@ li3 = [1,2, 'a', True] #mixture of data types
 
 #data structure - a way for us to organize information. 
 
-amazon_cart = ['notebooks', 'sunglasses']
+amazon_cart = ['notebooks', 
+'sunglasses',
+'toys',
+'grapes'
+]
 print(amazon_cart[0])
 print(amazon_cart[1])
 
-#List Slicing 
+#List Slicing  - muttable
+
+print(amazon_cart[0:2])
+print(amazon_cart[0::2])
+print("After changing the value of index 0 in amazon cart")
+amazon_cart[0] = 'laptop'
+print(amazon_cart)
+
+new_cart = amazon_cart #new cart points to the memory of amazon cart. so when you change the value in new cart the values changes in amazon cart also
+
+new_cart[0] = 'gum'
+
+print(new_cart)
+print(amazon_cart)
+
+
+#matrix, multi dimensioanl array
+
+matrix = [
+    [1,0,1],
+    [0,1,0],
+    [1,0,1]
+]
+
+print(matrix[0][1]  ) # [row][column]
+
