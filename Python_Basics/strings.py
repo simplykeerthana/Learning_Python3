@@ -68,4 +68,6 @@ print("Formatted string version")
 
 print(f'hi {name}. You are {age} years old')
 
-
+#variable fill in using brackets
+print('hi {}. You are {} Years Old'.format('Jhonny', '55'))
+print('hi {}, You are {} Year Old'.format(name, age))
