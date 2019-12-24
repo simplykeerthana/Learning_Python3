@@ -50,3 +50,4 @@ print(user.pop('age'))
 
 #user.popitem() randomly pops a pair off the dictionary
 
+print(user.update({'age': 55}))
