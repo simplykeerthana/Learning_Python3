@@ -102,3 +102,8 @@ print(copy_basket)
 #reversing the basket again using list slicing
 
 print(basket1[::-1])
+
+
+#ranges to generate a list within that range
+
+print(list(range(100)))
