@@ -55,13 +55,13 @@ basket.extend([100,101]) # add to the end of the list
 #append does not pro
 
 
-new_list = basket
+ new_list = basket
 print(basket)
 print(new_list) # result is non
 
 basket.pop() # removes the index value at the end of the list
 print(basket)
-basket.pop()
+basket.pop() # pop returns the value it removes at a certain index
 print(basket)
 basket.pop(0) # removes the value at the specifies index
 print(basket)
@@ -69,3 +69,15 @@ basket.remove(4) # revomes a specific value
 print(basket)
 
 
+basket1 = ['a','b','c','d','e']
+
+
+print(basket1.index('d'))
+ #prints the index value of character d
+
+# 'in' keyword checks of someting is in the list or not, and returns true or false. 
+
+print('x' in basket1)
+print('a' in basket1)
+
+print("the value d occurs" + basket.count('d')) # counts the number of times a value occurs in the lsit
