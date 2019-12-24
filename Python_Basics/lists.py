@@ -69,7 +69,7 @@ basket.remove(4) # revomes a specific value
 print(basket)
 
 
-basket1 = ['a','b','c','d','e']
+basket1 = ['a','x','b','c','d','e']
 
 
 print(basket1.index('d'))
@@ -81,3 +81,6 @@ print('x' in basket1)
 print('a' in basket1)
 
 print("the value d occurs" + basket.count('d')) # counts the number of times a value occurs in the lsit
+print(basket1)
+basket1.sort()
+print("The sorted basket in ascending order is ") # sorts 
