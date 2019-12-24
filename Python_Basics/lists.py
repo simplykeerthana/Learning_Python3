@@ -106,4 +106,10 @@ print(basket1[::-1])
 
 #ranges to generate a list within that range
 
-print(list(range(100)))
+print(list(range(100))) #prints numbers from 0 to 99
+
+# .join() for strings
+
+sentence = '' ; empty strings
+sentence.join['hi', 'my', 'name', 'is', 'boo']
+print(sentence)
