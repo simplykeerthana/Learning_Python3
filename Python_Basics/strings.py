@@ -32,3 +32,24 @@ full_name = first_name + last_name
 
 print(full_name)
 
+#string concatenation , adding strings together
+
+
+print('hello' + ' world')
+
+print(str(100))
+
+#type conversions .
+
+print(type(int(str(100))))
+
+#the above line can be written as 
+
+a = str(100)
+b = int(a)
+c = type(b)
+print(c)
+
+
+
+
