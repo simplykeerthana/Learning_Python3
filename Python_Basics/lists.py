@@ -47,11 +47,25 @@ print(matrix[0][1]  ) # [row][column]
 
 basket = [1,2,3,4,5]
 basket.append(100)
+
 #everything in python is a object
 
+basket.insert(4,100)
+basket.extend([100,101]) # add to the end of the list
 #append does not pro
 
 
 new_list = basket
 print(basket)
 print(new_list) # result is non
+
+basket.pop() # removes the index value at the end of the list
+print(basket)
+basket.pop()
+print(basket)
+basket.pop(0) # removes the value at the specifies index
+print(basket)
+basket.remove(4) # revomes a specific value
+print(basket)
+
+
