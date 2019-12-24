@@ -41,4 +41,15 @@ name = 'Jeremy Irons'
 age =  34
 
 relationship_status = 'single'
-relationship _status = 'It\'s complicates' 
+print(relationship_status)
+
+
+
+relationship_status = 'It\'s complicated' 
+print('updated version of relationship ' + relationship_status)
+
+birth_year = input('what year where you born') #this takes in a string input so you have to convert to int
+
+your_age = 2020 - int(birth_year)
+
+print(f'Your are age based on your birth year is {your_age}')
