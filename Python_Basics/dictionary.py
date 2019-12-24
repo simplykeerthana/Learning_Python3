@@ -73,6 +73,7 @@ print(my_tuple.count(5)) #prints the number of 5 in the tuple
 print(my_tuple.index(5)) #returns and prints the first index where 5 is found
 
 #sets
+# you can use all the set theories with it 
 #in a set everything is unique
 my_set = {1,2,3,4,5,5 }
 
@@ -95,3 +96,12 @@ print(my_set)
 
 print(my_set.difference_update(your_set))
 print(my_set)
+
+
+print(my_set.intersection(your_set))
+print(my_set)
+
+print(my_set | your_set)
+
+
+
