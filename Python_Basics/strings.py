@@ -72,3 +72,32 @@ print(f'hi {name}. You are {age} years old')
 print('hi {}. You are {} Years Old'.format('Jhonny', '55'))
 print('hi {}, You are {} Year Old'.format(name, age))
 
+
+#indexed Strtings
+
+selfish =  'me me me' 
+# 0-m, 1-2,  acessing different parts of the string using indexes
+
+print(selfish)
+print(selfish[1])
+print(selfish[0])
+
+#[start: stop] you can start from start and where to start
+
+sample = '01234567'
+print("Start:Stop indexes using strings")
+print(sample[0:2]) # so start at 2 and as soon as you get to book shelf 2 that is value '2' you stop
+print(sample[0:7])
+
+print(sample[-1] # in python the negative index sarts at the end of string)
+
+#[start:stop:stepover], slicing the string
+
+print(sample[::-1]) # prints the reverse of the string
+
+#immutability - strings in python are immutable
+# you can only completely reassign the variable of the string. 
+
+sample = sample + '8' #this just appends 8 to the sample
+
+print(sample)
