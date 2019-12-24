@@ -92,3 +92,6 @@ print(my_set.difference(your_set))
 
 print(my_set.discard(5))
 print(my_set)
+
+print(my_set.difference_update(your_set))
+print(my_set)
