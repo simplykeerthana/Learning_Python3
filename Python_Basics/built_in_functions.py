@@ -1,3 +1,5 @@
+#using string python methods
+
 sample = len('helloooo')
 
 print(sample)
@@ -13,3 +15,4 @@ print(quote.find('be')) # does be exist in the quote string.
 print(quote.replace('be', 'me'))
 
 print("new quote " + quote)
+
