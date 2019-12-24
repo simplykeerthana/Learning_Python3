@@ -71,3 +71,24 @@ print(new_tuple)
 print(my_tuple.count(5)) #prints the number of 5 in the tuple
 
 print(my_tuple.index(5)) #returns and prints the first index where 5 is found
+
+#sets
+#in a set everything is unique
+my_set = {1,2,3,4,5,5 }
+
+my_set.add(100)
+my_set.add(2)
+# a set also orders its values
+
+print(my_set) # only prints the unique items,
+
+# a set can be used to remove duplicates, for example to remove duplicate emails in a mailing list
+
+your_set = {4,5,6,7,8,9,10}
+
+print(my_set.difference(your_set))
+
+#discard remvoves an element from the a set if it is a member
+
+print(my_set.discard(5))
+print(my_set)
