@@ -13,7 +13,6 @@ is_old = True
 is_licences = True
 
 #if age is 
-    print("you are old enough to drive")
 #if this and that - true
 # if this or that - true
 if is_old and is_licences:
