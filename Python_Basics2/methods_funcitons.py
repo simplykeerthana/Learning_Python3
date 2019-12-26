@@ -5,11 +5,17 @@
 # min()
 #input()
 
-# a functions
-def some_random_stuff() 
-    pass
 
-some_random_stuff()
 
-  
-'hello'.capitalize()
+# conditional logic
+
+is_old = True
+is_licences = True
+
+#if age is 
+if is_old:
+    print("you are old enough to drive")
+else:
+    print("checkcheck")
+
+
