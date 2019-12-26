@@ -9,6 +9,8 @@
 
 # conditional logic
 
+#if else conditions.
+
 is_old = True
 is_licences = True
 
@@ -23,5 +25,10 @@ else:
     print("you are not of age!")
 
 print("okkokokok")
+
+
+#truthy and falsy
+
+print(bool('hello'))
 
 
