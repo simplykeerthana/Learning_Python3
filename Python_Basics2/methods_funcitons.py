@@ -9,17 +9,20 @@
 
 # conditional logic
 
-is_old = False
+is_old = True
 is_licences = True
 
 #if age is 
-if is_old:
     print("you are old enough to drive")
+#if this and that - true
+# if this or that - true
+if is_old and is_licences:
+    print("you are old enough to drive, and you have a license!")
 elif is_licences:
     print("you can drive now!")
 else:
     print("you are not of age!")
 
-
 print("okkokokok")
+
 
