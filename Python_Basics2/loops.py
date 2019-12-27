@@ -50,6 +50,7 @@ for list3 in user.keys():
 
 #printing both key, and values in one single line
 
+print("Both the key and values in a dictionary at the same time: ")
+
 for key, value in user.items():
     print(key, value)
-    
