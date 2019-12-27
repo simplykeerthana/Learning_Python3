@@ -84,13 +84,24 @@ print("using not method " + str(not(True)))
 
 
 #logical operators exercises
-
+# a code must be easy to understand 
 is_magician = False
 is_expert = False
 
 if is_magician and is_expert:
     print("you are a master magician")
-elif is_magician and not is_expert:
+elif is_magician or is_expert:
     print("at least you are getting there")
 elif not is_magician:
     print("you need magic powers ")
+
+
+#is vs ==
+
+print("The true/false events: ")
+
+print(True == 1) #True
+print('' == 1) #false
+print([] == 1) #false
+print(10 == 10.0) #true
+print([] == []) #true
