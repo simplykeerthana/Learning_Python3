@@ -74,3 +74,5 @@ if is_friend or is_user:
 print(4<5)
 print(4>5)
 print(4==5)
+print(5>=5)
+print(4<=5)
