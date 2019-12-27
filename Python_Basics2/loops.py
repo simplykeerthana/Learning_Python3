@@ -143,7 +143,7 @@ while True:
 
   #when continue is used .... you can use it to go back to top of the loop again
 
-  # pass is used to pass to the next line
+  # pass is sused to pass to the next line
 
 for item in my_list1:
     pass
@@ -151,6 +151,12 @@ for item in my_list1:
 #Graphical User Interface
 
 #exercise
+
+#developers code
+#clean
+#Readability
+# predictibility
+
 
 picture = [
     [0,0,0,1,0,0,0],
@@ -167,4 +173,4 @@ for image in picture:
             print('*', end="")
         else: 
             print(' ', end = "")
-    print('')
+    print('') #need a new line after every row
