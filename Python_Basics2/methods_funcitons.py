@@ -68,3 +68,9 @@ can_message = "message allowed" if is_friend else "not allowed to message"
 if is_friend or is_user:
     print('best friends forever')
 
+
+#logical operator
+
+print(4<5)
+print(4>5)
+print(4==5)
