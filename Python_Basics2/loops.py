@@ -119,7 +119,8 @@ while i < 50:
 else:
     print("done with all the work")
     
-# break, continue and exit
+# break, continue and pass 
+
 print()
 
 my_list1 = [1,2,3]
@@ -140,3 +141,6 @@ while True:
     if(response == 'bye'):
         break
 
+  #when continue is used .... you can use it to go back to top of the loop again
+
+  
