@@ -55,7 +55,7 @@ else:
 
 #conditon_if_true if condition else condition_if_else
 
-is_friend = True
+is_friend = False
 is_user = True
 can_message = "message allowed" if is_friend else "not allowed to message"
 
