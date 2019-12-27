@@ -41,3 +41,15 @@ for list1 in user.items():
 #this prints the values of each key
 for list2 in user.values():
     print(list2)
+
+#key methods
+#this prints the keys of each key
+
+for list3 in user.keys():
+    print(list3)
+
+#printing both key, and values in one single line
+
+for key, value in user.items():
+    print(key, value)
+    
