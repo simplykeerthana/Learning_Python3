@@ -3,3 +3,6 @@
 
 def  say_hello():
     print("hellooooooo worold!")
+
+
+say_hello()
