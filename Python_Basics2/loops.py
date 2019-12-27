@@ -32,6 +32,12 @@ user = {
 
 print("The items in a dictionary: ")
 
+#items methods
+
 for list1 in user.items():
     print(list1)
-
+  
+#value methods
+#this prints the values of each key
+for list2 in user.values():
+    print(list2)
