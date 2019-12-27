@@ -16,4 +16,4 @@ for item1 in {1,2,3,4,5}:
 
 for item2 in (1,2,3,4,5):
     for x in ['a','b','c']:
-        print(item2, x)
+        print(item2, x, 'c')
