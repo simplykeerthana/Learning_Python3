@@ -54,3 +54,19 @@ print("Both the key and values in a dictionary at the same time: ")
 
 for key, value in user.items():
     print(key, value)
+
+# exercise tricky 
+
+#to count the number of elements and sum in a list
+
+print("to count the number of elements and it sum in a list")
+
+my_list = [1,2,3,4,5,6,7,8,9,10]
+
+counter = 0
+
+for items in my_list :
+    counter = counter + items
+
+print(counter)
+
