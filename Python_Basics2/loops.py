@@ -133,7 +133,10 @@ while k< len(my_list1):
     print(my_list1[k])
     k += 1
 
+#input while loop and etc
+
 while True:
-    input('Say Something: ')
-    
+    response = input('Say Something: ')
+    if(response == 'bye'):
+        break
 
