@@ -119,3 +119,18 @@ while i < 50:
 else:
     print("done with all the work")
     
+# break, continue and exit
+print()
+
+my_list1 = [1,2,3]
+
+for item in my_list1:
+    print(item)
+
+#using lists and while loop
+k = 0
+while k< len(my_list1):
+    print(my_list1[k])
+    k += 1
+    
+
