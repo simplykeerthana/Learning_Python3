@@ -15,4 +15,7 @@ def say_hello(name, emoji):
 
 #arguments used when you pass value to a function
 
-say_hello('keerthana', '😝')
+say_hello('keerthana', '😝') #call or invoke a funciton with arguments
+
+
+
