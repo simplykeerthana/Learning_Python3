@@ -174,3 +174,22 @@ for image in picture:
         else: 
             print(' ', end = "")
     print('') #need a new line after every row
+
+
+#
+         
+some_list = ['a','b','c','b', 'd', 'm', 'n', 'n']
+print()
+duplicates = [ ]
+
+for value in some_list:
+     if some_list.count(value) >  1: #checks if there is a duplicatr
+      if value not in duplicates:
+        duplicates.append(value)
+
+print(duplicates)
+
+ 
+
+
+
