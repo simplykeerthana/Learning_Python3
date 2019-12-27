@@ -143,4 +143,7 @@ while True:
 
   #when continue is used .... you can use it to go back to top of the loop again
 
-  
+  # pass is used to pass to the next line
+
+  for item in my_list1:
+    pass
