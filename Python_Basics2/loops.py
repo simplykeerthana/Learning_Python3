@@ -147,3 +147,17 @@ while True:
 
   for item in my_list1:
     pass
+
+#Graphical User Interface
+
+#exercise
+
+picture - [
+    [0,0,0,1,0,0,0],
+    [0,0,1,1,1,0,0],
+    [0,1,1,1,1,1,0],
+    [1,1,1,1,1,1,1],
+    [0,0,0,1,0,0,0],
+    [0,0,0,1,0,0,0]
+]
+
