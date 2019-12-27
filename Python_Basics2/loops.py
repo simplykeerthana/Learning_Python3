@@ -17,3 +17,21 @@ for item1 in {1,2,3,4,5}:
 for item2 in (1,2,3,4,5):
     for x in ['a','b','c']:
         print(item2, x, 'c')
+
+
+    
+#iterable  , an object or collection that can be iterated over and over agian
+
+#iterable - list, dictionaty, tuple, set, adn string and etc. 
+
+user = {
+    'name': 'Nancy',
+    'age': 5006, 
+    'can_swim': False
+}
+
+print("The items in a dictionary: ")
+
+for list1 in user.items():
+    print(list1)
+
