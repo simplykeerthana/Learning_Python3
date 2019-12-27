@@ -72,3 +72,30 @@ print(counter)
 
 
 # range function ()
+# it gives a range object of (0,100)
+
+print(range(100))
+
+ 
+ #using a loop to print 100 numbers in a loop
+
+for number in range(0,100):
+     print(number)
+
+
+# jumping by a certain value in a range
+#to print the even numbers
+print("To print the even values using a range function in a for loop")
+for some in range(0,10,2): 
+    print(some)\
+
+#enumerate () function
+
+for i, char in enumerate('Hellooo'):
+    print(i, char)
+
+for i, char in enumerate([1,2,3]):
+    print(i,char)
+
+#it prints the i value of all the wonderful things.
+
