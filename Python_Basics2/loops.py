@@ -70,3 +70,5 @@ for items in my_list :
 
 print(counter)
 
+
+# range function ()
