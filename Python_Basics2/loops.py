@@ -10,3 +10,10 @@ for item in "zero to mastery":
 print()
 for item1 in {1,2,3,4,5}:
     print(item1)
+
+
+# { set}, (tuple), and (dictionary)
+
+for item2 in (1,2,3,4,5):
+    for x in ['a','b','c']:
+        print(item2, x)
