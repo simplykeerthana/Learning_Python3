@@ -2,14 +2,14 @@
 # creating our own functions 
 
 def  say_hello():
-    print("hellooooooo worold!")
+    print("hellooooooo world!")
 
 
 say_hello() #calling the function
 
 #parameters
 
-def say_hello(name, emoji):
+def say_hello(name = 'Keerthana', emoji = '😜'):
     print(f' helloooo {name} {emoji}')
 
 
@@ -28,5 +28,13 @@ say_hello('Anthony', '😇')
 
 say_hello(emoji='🥳', name="Ziddu")
 
+say_hello()
 
 
+
+# return statements in fucntions 
+
+def sum(num1, num2):
+   return num1 + num2 #you must have the return statement to return something or else it's gonna return none
+
+print(sum(1,3))
