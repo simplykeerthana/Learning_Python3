@@ -31,4 +31,28 @@ print("okkokokok")
 
 print(bool('hello'))
 
+#thruthy and falsy 
+# all values are considered as truthy 
+# some values like falsy are false, 0, 0.o, [], {} and etc
+
+
+#conditional language very nice. 
+
+
+password = '123'
+username = 'keerthana'
+
+#if password and username exist 
+
+if password and username:
+    print('you are old enough to drive, adn you have a license')
+else:
+    print('you are not of age!')
+
+
+
+# Ternary Operator, one of the conditional expression
+
+c
+
 
