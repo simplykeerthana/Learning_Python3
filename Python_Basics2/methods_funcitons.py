@@ -81,3 +81,16 @@ print(4<=5)
 
 print("using not method " + str(not(True)))
 
+
+
+#logical operators exercises
+
+is_magician = True
+is_expert = True
+
+if is_magician and is_expert:
+    print("you are a master magician")
+elif is_magician or is_expert
+    print("at least you are getting there")
+else not(is_magician)
+    print("you need magic hours")
