@@ -53,6 +53,14 @@ else:
 
 # Ternary Operator, one of the conditional expression
 
-c
+#conditon_if_true if condition else condition_if_else
+
+is_friend = True
+can_message = "message allowed" if is_friend else "not allowed to message"
+
+# so the above message executes like this, if the is_friend is available (true) then you can message
+# else you cannot message because he/she is not your friends
+
+#short circuiting 
 
 
