@@ -23,7 +23,10 @@ say_hello('Anthony', '😇')
 
 #positional arguemnts, the arguments must be in the same position as the function parameters
 
- #keywork arguments 
- #
+#keywork arguments 
+#this what happens.
+
 say_hello(emoji='🥳', name="Ziddu")
+
+
 
