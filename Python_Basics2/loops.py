@@ -7,7 +7,6 @@
 
 for item in "zero to mastery":
     print(item)
-
+print()
 for item1 in {1,2,3,4,5}:
     print(item1)
-    
