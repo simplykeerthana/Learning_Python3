@@ -145,14 +145,14 @@ while True:
 
   # pass is used to pass to the next line
 
-  for item in my_list1:
+for item in my_list1:
     pass
 
 #Graphical User Interface
 
 #exercise
 
-picture - [
+picture = [
     [0,0,0,1,0,0,0],
     [0,0,1,1,1,0,0],
     [0,1,1,1,1,1,0],
@@ -161,3 +161,10 @@ picture - [
     [0,0,0,1,0,0,0]
 ]
 
+for image in picture:
+    for pixel in image:
+        if(pixel): #if it is 1 
+            print('*', end="")
+        else: 
+            print(' ', end = "")
+    print('')
