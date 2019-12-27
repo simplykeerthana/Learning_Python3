@@ -38,3 +38,29 @@ def sum(num1, num2):
    return num1 + num2 #you must have the return statement to return something or else it's gonna return none
 
 print(sum(1,3))
+
+total = sum(10,5)
+print(sum(10,total)) #you can also send in variables to the function
+
+
+#nested functions
+
+def sum1(num1, num2):
+    def another_func(n1, n2): # this function does not get called
+        return n1 + n2  
+    return another_func(num1, num2) # so you have to 
+
+
+total1 = sum1(10,20)
+
+print(total1)
+
+
+
+#telsa exercise, you just got employed by Tesla and solve a problem and you need to solve a problem for their self driving car
+
+
+def checkDriverAge():
+    age = input("What is your age?: ")
+
+    
