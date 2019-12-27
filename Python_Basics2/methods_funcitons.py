@@ -105,3 +105,10 @@ print('' == 1) #false
 print([] == 1) #false
 print(10 == 10.0) #true
 print([] == []) #true
+
+# == checks for equality so it would convert it to same types 
+
+#is checks for if the location in memory of the both the comparing values is the same
+
+
+
