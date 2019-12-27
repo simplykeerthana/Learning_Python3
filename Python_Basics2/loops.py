@@ -99,3 +99,22 @@ for i, char in enumerate([1,2,3]):
 
 #it prints the i value of all the wonderful things.
 
+
+#finding 50 in the range of 100
+
+for i,char in enumerate(list(range(100))):
+   print(i,char)
+   if char == 50:
+        print(f'index of 50 i: {i}')
+
+
+# <<<<>>>><<<<>>> While Looops <><><><><><><
+#infinite loops can be very dangerous. 
+# be careful of indentation in python
+
+i = 0
+while i < 50:
+    print(i)
+    i = i + 1
+
+    
