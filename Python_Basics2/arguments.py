@@ -5,6 +5,7 @@
 #for multiple arguments use the symbol *
 
 def super_functions(*args, **kwargs):
+    total = 0
     print(kwargs)
     for items in kwargs.values():
         total += items
@@ -14,3 +15,13 @@ def super_functions(*args, **kwargs):
 print(super_functions(1,2,3,4,5, num1=5, num2=10))
 
 
+#RuleL params, *argsm default parameters, **kwargs
+
+def super_functions1(name, *args, i='hi', **kwargs):
+    total1 = 0
+    for items iin kwargs.values():
+        total1 += items
+    
+    return sum(args) + total1
+
+print(super_functions1('Andy', 1,2,3,4,5, num1=5, num2=10))
