@@ -19,9 +19,22 @@ print(super_functions(1,2,3,4,5, num1=5, num2=10))
 
 def super_functions1(name, *args, i='hi', **kwargs):
     total1 = 0
-    for items iin kwargs.values():
+    for items in kwargs.values():
         total1 += items
     
     return sum(args) + total1
 
 print(super_functions1('Andy', 1,2,3,4,5, num1=5, num2=10))
+
+
+# finding the highest even
+
+def highest_even(li):
+    evens = []
+    for item in li:
+        if item in li:
+            evens.append(item)
+    return max(evens)
+
+print(highest_even([10,1,2,3,4,8]))
+
