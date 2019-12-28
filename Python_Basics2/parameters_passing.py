@@ -116,3 +116,12 @@ def is_even1(num):
 
 print("Clean Code: ")
 print(is_even1(51))
+
+
+# *args and **kwargs, arguments and keyword arguments
+
+def super_functions(args):
+    print(args)
+    return sum(args)
+
+super_functions(1,2,3,4,5)
