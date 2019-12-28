@@ -77,8 +77,14 @@ checkDriverAge(age)
 #DocStrings
 
 def test(a):
+    '''
+    Info: this function test and prints param a 
+    '''
     print(a)
 
 
 test('!!!!')
 
+# use help() to know what a function does
+help(test)
+print(test.__doc__)
