@@ -88,5 +88,20 @@ test('!!!!')
 # use help() to know what a function does
  
  # help(test)
- 
+
+ # __doc__ for doc strings, you print those doc strings to the screen
+
 print(test.__doc__)
+
+#clean code
+
+ #not clean code
+
+ def is_even(num):
+     if num % 2 == 0:
+         return True
+      elif num % 2 != 0:
+          return False 
+
+print("Not so clean code")
+print(is_even(51))
