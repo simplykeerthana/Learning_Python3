@@ -112,5 +112,7 @@ def is_even1(num):
     if num % 2 == 0:
         return True
     return False
+    
 
-    print(is_even1(50))
+print("Clean Code: ")
+print(is_even1(51))
