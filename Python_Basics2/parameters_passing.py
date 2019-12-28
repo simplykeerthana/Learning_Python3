@@ -74,3 +74,11 @@ def checkDriverAge(age = 0):
 
 checkDriverAge(age)
 
+#DocStrings
+
+def test(a):
+    print(a)
+
+
+test('!!!!')
+
