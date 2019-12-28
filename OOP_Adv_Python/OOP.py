@@ -22,4 +22,4 @@ print(type({}))
 
  #OOP is a paradigm is a way to think about our code and structure the code.
 
- 
+ #previous programming languages 
