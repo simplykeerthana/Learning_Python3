@@ -40,6 +40,7 @@ print("the type of class Big_Object is " + str(type(obj)))
 #creating our own objects
 
 class Player_Characters:
+    #like a constructor
     def __init__(self,name):
         self.name = name
 
@@ -49,3 +50,9 @@ class Player_Characters:
 player1 = Player_Characters('Johnny')
 
 print(player1.name)
+
+player2 = Player_Characters('Tommy')
+
+print(player2.name)
+
+ #self is like this in Java 
