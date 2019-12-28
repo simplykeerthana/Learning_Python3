@@ -41,12 +41,14 @@ print("the type of class Big_Object is " + str(type(obj)))
 
 class Player_Characters:
     #like a constructor
+    membership = True #class objects 
     def __init__(self,name, age):
         self.name = name #attribute
         self.age = age #atttributes
 
     def run(self):
       print("run")
+      return 'done'
 
 player1 = Player_Characters('Johnny', 45)
 
@@ -58,4 +60,13 @@ print(player2.name + " " +  str(player2.age))
 
  #self is like this in Java 
 
-print(player.run())
+print(player1.run()) 
+
+
+#attributes and methods - to add functionlaity of to the program
+
+
+#help(player1)
+
+print(player1.membership)
+print(player2.membership)
