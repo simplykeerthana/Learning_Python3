@@ -42,8 +42,8 @@ print("the type of class Big_Object is " + str(type(obj)))
 class Player_Characters:
     #like a constructor
     def __init__(self,name, age):
-        self.name = name
-        self.age = age
+        self.name = name #attribute
+        self.age = age #atttributes
 
     def run(self):
       print("run")
@@ -57,3 +57,5 @@ player2 = Player_Characters('Tommy', 33)
 print(player2.name + " " +  str(player2.age))
 
  #self is like this in Java 
+
+print(player.run())
