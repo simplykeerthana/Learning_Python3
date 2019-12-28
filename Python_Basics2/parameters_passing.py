@@ -86,5 +86,5 @@ def test(a):
 test('!!!!')
 
 # use help() to know what a function does
-help(test)
+
 print(test.__doc__)
