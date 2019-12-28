@@ -32,7 +32,20 @@ print(type({}))
 class Big_Object:
      pass
 
-obj = Big_Object()
+obj = Big_Object() # instantiating the object, creating a new object
 
 print(type(Big_Object))
-print("the type of class Big_Object" + str(type(obj)))
+print("the type of class Big_Object is " + str(type(obj)))
+
+#creating our own objects
+
+class Player_Characters:
+    def __init__(self,name):
+        self.name = name
+
+    def run(self):
+      print("run")
+
+player1 = Player_Characters('Johnny')
+
+print(player1.name)
