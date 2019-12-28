@@ -38,7 +38,7 @@ def highest_even(li):
 
 print(highest_even([10,1,2,3,4,8]))
 
-#scope - what variabless do you have 
+#scope - what variabless do you have , who has access to who
 
 if True:
     x  = 10
@@ -47,3 +47,20 @@ def some_func():
     total = 100
 
 print(x)
+
+#global keyword
+
+total2 = 0
+
+def count(total):
+    global total2
+    total2 += 1
+    return total2
+
+count(total2)
+count(total2)
+print(count(total2))
+
+
+#non local keyword - not a global variable but want to use a variable outside of scope
+
