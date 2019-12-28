@@ -38,3 +38,12 @@ def highest_even(li):
 
 print(highest_even([10,1,2,3,4,8]))
 
+#scope - what variabless do you have 
+
+if True:
+    x  = 10
+
+def some_func():
+    total = 100
+
+print(x)
