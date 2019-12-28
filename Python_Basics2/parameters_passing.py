@@ -59,8 +59,18 @@ print(total1)
 
 #telsa exercise, you just got employed by Tesla and solve a problem and you need to solve a problem for their self driving car
 
+age = input("What is your age?: ")
 
-def checkDriverAge():
-    age = input("What is your age?: ")
 
+def checkDriverAge(age = 0):
+   
+    if int(age) < 18:
+        print("Sorry, you are too young to drive this car. Powering off")
+    elif int(age) > 18:
+        print("Powering On. Enjoy the ride!")
+    elif int(age) == 18:
+        print("Congratualations on your first year of driving. Enjoy the ride!")
     
+
+checkDriverAge(age)
+
