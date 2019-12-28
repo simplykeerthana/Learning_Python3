@@ -23,3 +23,16 @@ print(type({}))
  #OOP is a paradigm is a way to think about our code and structure the code.
 
  #previous programming languages 
+ 
+ #assembly language - really close to machine language
+ # procedural code - C Programming Language
+
+# class name should start with a Capital Letter
+ 
+class Big_Object:
+     pass
+
+obj = Big_Object()
+
+print(type(Big_Object))
+print("the type of class Big_Object" + str(type(obj)))
