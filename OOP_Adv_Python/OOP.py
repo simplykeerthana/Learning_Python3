@@ -122,5 +122,12 @@ print(f"The oldest cat is {get_oldest_cat(cat1.age, cat2.age, cat3.age)} years o
 #the four pillars of OOP : encapsulation, abstraction
 
 # encapsulation, hidind attributes, methods in the class
-# abstraction: only have what is necessary
+# abstraction: only have or know what is necessary. everything else is hidden, abstraction can be overridden if there is no data type restrictions. so use public and private
+
+
+
+
+# _name is a private variable, but there is no gurantee of private and non-changeable
+
+
 
