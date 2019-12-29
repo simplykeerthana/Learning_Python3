@@ -51,13 +51,17 @@ class Player_Characters:
     def run(self):
       print("run")
       return 'done'
-
+#class method
     @classmethod
     def adding_things(cls, num1, num2): #cls is short for class
          return cls('teddy', num1 + num2)
 
     def shout(self):
         print(f'My name is {self.name}')
+
+ 
+#static methods does not have a cls 
+
 player1 = Player_Characters('Johnny', 45)
 
 print(player1.name  + " " +  str(player1.age))
@@ -109,8 +113,14 @@ def get_oldest_cat(*args):
 
 print(f"The oldest cat is {get_oldest_cat(cat1.age, cat2.age, cat3.age)} years old.")
 
-# @classmethod and @static method
+
+#review
+
+#claassical OOP is of classes class, class object attributes, methods, class methods and static methods. 
 
 
+#the four pillars of OOP : encapsulation, abstraction
 
+# encapsulation, hidind attributes, methods in the class
+# abstraction: only have what is necessary
 
