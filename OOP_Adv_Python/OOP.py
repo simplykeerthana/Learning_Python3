@@ -87,7 +87,17 @@ cat1 = Cat("Peanut", 5)
 cat2 = Cat("Anthony", 3)
 cat3 = Cat("Mary", 2)
 
+@classmethod
+def adding_things(num1, num2):
+    return num1 + num2
+
 def get_oldest_cat(*args):
     return max(args)
 
+
 print(f"The oldest cat is {get_oldest_cat(cat1.age, cat2.age, cat3.age)} years old.")
+
+# @classmethod and @static method
+
+
+
