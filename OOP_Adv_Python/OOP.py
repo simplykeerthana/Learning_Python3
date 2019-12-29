@@ -90,4 +90,4 @@ cat3 = Cat("Mary", 2)
 def get_oldest_cat(*args):
     return max(args)
 
-    
+print(f"The oldest cat is {get_oldest_cat(cat1.age, cat2.age, cat3.age)} years old.")
