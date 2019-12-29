@@ -52,6 +52,10 @@ class Player_Characters:
       print("run")
       return 'done'
 
+    @classmethod
+    def adding_things(cls, num1, num2): #cls is short for class
+         return num1 + num2
+
     def shout(self):
         print(f'My name is {self.name}')
 player1 = Player_Characters('Johnny', 45)
@@ -65,6 +69,10 @@ print(player2.name + " " +  str(player2.age))
  #self is like this in Java 
 
 print(player1.run()) 
+
+print(player1.adding_things(4,5))
+
+print(Player_Characters.adding_things(2,3)) # its a methods on the class  
 
 
 #attributes and methods - to add functionlaity of to the program
@@ -82,9 +90,10 @@ class Cat:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-@classmethod
-def adding_things(num1, num2):
-    return num1 + num2
+    
+
+
+
 
 cat1 = Cat("Peanut", 5)
 cat2 = Cat("Anthony", 3)
@@ -102,5 +111,4 @@ print(f"The oldest cat is {get_oldest_cat(cat1.age, cat2.age, cat3.age)} years o
 
 
 
-print(player1.adding_things(4,5))
 
