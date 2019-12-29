@@ -54,7 +54,7 @@ class Player_Characters:
 
     @classmethod
     def adding_things(cls, num1, num2): #cls is short for class
-         return num1 + num2
+         return cls('teddy', num1 + num2)
 
     def shout(self):
         print(f'My name is {self.name}')
@@ -72,7 +72,9 @@ print(player1.run())
 
 print(player1.adding_things(4,5))
 
-print(Player_Characters.adding_things(2,3)) # its a methods on the class  
+player3 = Player_Characters.adding_things(2,3)
+
+print(player3) # its a methods on the class  
 
 
 #attributes and methods - to add functionlaity of to the program
