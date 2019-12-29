@@ -70,13 +70,13 @@ print(player2.name + " " +  str(player2.age))
 
 print(player1.run()) 
 
-print(player1.adding_things(4,5))
+#print(player1.adding_things(4,5))
 
 player3 = Player_Characters.adding_things(2,3)
 
-print(player3) # its a methods on the class  
+print(player3.age) # its a methods on the class  
 
-
+print(player3.name)
 #attributes and methods - to add functionlaity of to the program
 
 
