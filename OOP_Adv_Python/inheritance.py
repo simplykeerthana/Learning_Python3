@@ -13,8 +13,9 @@ class Wizard(User): #users, we have to pass the parent class user to inherit sig
         super().__init__(email)
         self.name = name 
         self.power = power
-    def attack(self):
-        print(f"attacking with power of {self.power}")
+    
+   # def attack(self):
+    #     print(f"attacking with arrows: arrows left- {self.num_arrows}")
 
 class Archer(User): #users 
     def __init__(self, name, num_arrows):
@@ -22,21 +23,25 @@ class Archer(User): #users
         self.num_arrows = num_arrows
     
     def check_arrows(self):
-        print(f'{self.arrows} remaining')
+       # print(f'{self.num_arrows} remaining')
+       pass
 
     def run(self):
         print('ran really fast')
 
     def attack(self):
-        print(f"attacking with arrows: arrows left- {self.num_arrows}")
+        #print(f"attacking with arrows: arrows left- {self.num_arrows}")
+        pass
 
 class HybridBorg(Wizard, Archer): #multiple inheritance
-    pass
+    def __init__(self, name, power, arrows):
 
-hb1 = HybridBorg()
-print(hb1.run())
+        Archer.__init__(self, name, arrows)
 
+hb1 = HybridBorg('borgie', 50, 100)
+print(hb1.check_arrows())
 
+  
 wizard1 = Wizard('Peter', 50, "wizard@gmail.com")
 #archer1 = Archer('Mary', 100, "mary@gmail.com")
 
