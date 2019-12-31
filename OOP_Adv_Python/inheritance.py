@@ -23,15 +23,13 @@ class Archer(User): #users
         self.num_arrows = num_arrows
     
     def check_arrows(self):
-       # print(f'{self.num_arrows} remaining')
-       pass
+        print(f'{self.num_arrows} remaining')
 
     def run(self):
         print('ran really fast')
 
     def attack(self):
-        #print(f"attacking with arrows: arrows left- {self.num_arrows}")
-        pass
+        print(f"attacking with arrows: arrows left- {self.num_arrows}")
 
 class HybridBorg(Wizard, Archer): #multiple inheritance
     def __init__(self, name, power, arrows):
@@ -39,7 +37,7 @@ class HybridBorg(Wizard, Archer): #multiple inheritance
         Archer.__init__(self, name, arrows)
 
 hb1 = HybridBorg('borgie', 50, 100)
-print(hb1.check_arrows())
+print(hb1.check_arrows()
 
   
 wizard1 = Wizard('Peter', 50, "wizard@gmail.com")
