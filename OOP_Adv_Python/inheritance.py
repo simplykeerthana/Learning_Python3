@@ -35,4 +35,4 @@ archer1.attack()
 #to check if something is an instance of the class you would use isinstance function
 wizard2 = Wizard('happy', 60)
 
-print(isinstance(wizard2, Wizard))
+print(isinstance(wizard2, Wizard)) #return true of false, in this case it is true
