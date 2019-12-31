@@ -25,3 +25,22 @@ print(len(action_figure))
 
 #del action_figure
 print(action_figure())
+
+
+#exercise Extending Lists
+
+class SuperList(list):
+    def __len__(self):
+        return 1000
+
+super_List1 = SuperList();
+
+print(len(super_List1))
+
+super_List1.append(5)
+
+print(super_List1[0])
+print(issubclass(list,object))
+print(super_List1)
+
+
