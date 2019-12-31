@@ -50,4 +50,5 @@ from functools import reduce
 def accumulator(acc, item): #acc is default 0
     print(acc, item)
     return acc + item
-print(list(reduce(accumulator, my_list, 0)))
+
+print(reduce(accumulator, my_list, 0)) #returns and prints the final value of the accumulator
