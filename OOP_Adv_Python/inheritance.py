@@ -36,3 +36,14 @@ archer1.attack()
 wizard2 = Wizard('happy', 60)
 
 print(isinstance(wizard2, Wizard)) #return true of false, in this case it is true
+
+# the bases class of all objects is Object
+print(isinstance(wizard2, object)) # you still get true
+
+ #polymorphism
+ # 
+def player_attack(char):
+     char.attack() # the object you pass into it calls different attack methodss
+
+player_attack(wizard1)
+player_attack(archer1)
