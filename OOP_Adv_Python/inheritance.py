@@ -31,3 +31,8 @@ archer1.attack()
 #print(wizard1.sign_in())  
 
 #you abstract the User class because both the archer and wizard share these code
+
+#to check if something is an instance of the class you would use isinstance function
+wizard2 = Wizard('happy', 60)
+
+print(isinstance(wizard2, Wizard))
