@@ -21,7 +21,7 @@ print(multiply_by2([1,2,3]))
 
 my_list = [1,2,3]
 your_list = [10,20,30]
-
+their_list = [5,6,6]
 def map_multiply_by2(item):
     return item*2
 
@@ -39,5 +39,6 @@ print(list(filter(only_odd, my_list)))
 #zip, need two lists to zip them together
 # zip takes the 1 items from each list and adds to create a tupule
  
-print(list(zip(my_list,your_list)))
+print(list(zip(my_list,your_list, their_list)))
+
 
