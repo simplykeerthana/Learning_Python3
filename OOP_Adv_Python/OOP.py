@@ -119,11 +119,11 @@ print(f"The oldest cat is {get_oldest_cat(cat1.age, cat2.age, cat3.age)} years o
 #claassical OOP is of classes class, class object attributes, methods, class methods and static methods. 
 
 
-#the four pillars of OOP : encapsulation, abstraction
+#the four pillars of OOP : encapsulation, abstractionm inheritance
 
 # encapsulation, hidind attributes, methods in the class
 # abstraction: only have or know what is necessary. everything else is hidden, abstraction can be overridden if there is no data type restrictions. so use public and private
-
+# inheritance : inherit objects from different class. 
 
 
 
