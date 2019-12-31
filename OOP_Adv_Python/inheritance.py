@@ -40,10 +40,13 @@ print(isinstance(wizard2, Wizard)) #return true of false, in this case it is tru
 # the bases class of all objects is Object
 print(isinstance(wizard2, object)) # you still get true
 
- #polymorphism
+ #polymorphism, allows us to have many forms, it gives us the ability to redefine methods in many forms
  # 
 def player_attack(char):
      char.attack() # the object you pass into it calls different attack methodss
 
 player_attack(wizard1)
 player_attack(archer1)
+
+for char in [wizard1, archer1]:
+    char.attack()
