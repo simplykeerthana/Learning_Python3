@@ -20,9 +20,21 @@ class Archer(User): #users
     def __init__(self, name, num_arrows):
         self.name = name
         self.num_arrows = num_arrows
+    
+    def check_arrows(self):
+        print(f'{self.arrows} remaining')
+
+    def run(self):
+        print('ran really fast')
 
     def attack(self):
         print(f"attacking with arrows: arrows left- {self.num_arrows}")
+
+class HybridBorg(Wizard, Archer): #multiple inheritance
+    pass
+
+hb1 = HybridBorg()
+print(hb1.run())
 
 
 wizard1 = Wizard('Peter', 50, "wizard@gmail.com")
@@ -64,3 +76,5 @@ player_attack(wizard1)
 
 
 print(wizard2.email)
+
+#multiple inheritance
