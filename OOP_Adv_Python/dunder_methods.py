@@ -42,5 +42,5 @@ super_List1.append(5)
 print(super_List1[0])
 print(issubclass(list,object))
 print(super_List1)
-
+ 
 
