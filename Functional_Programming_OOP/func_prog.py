@@ -36,9 +36,18 @@ def only_odd(item): # if the number is odd keep it in the list, else remove
 
 print(list(filter(only_odd, my_list)))
  
-#zip, need two lists to zip them together
+#zip
+#  need two lists to zip them together
 # zip takes the 1 items from each list and adds to create a tupule
  
 print(list(zip(my_list,your_list, their_list)))
 
+#reduce
+# reduce is not in the python built in functions, we have to use "from functools import reduce"
 
+from functools import reduce
+
+def accumulator(acc, item): #acc is default 0
+    print(acc, item)
+    return acc + item
+print(list(reduce(accumulator, my_list, 0)))
