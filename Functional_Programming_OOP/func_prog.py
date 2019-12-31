@@ -52,3 +52,37 @@ def accumulator(acc, item): #acc is default 0
     return acc + item
 
 print(reduce(accumulator, my_list, 0)) #returns and prints the final value of the accumulator
+
+#exercise
+
+#map
+my_pets = ['sisi', 'bibi', 'titi', 'carla']
+
+def capitalize(string):
+    return string.upper()
+
+print(list(map(capitalize, my_pets)))
+
+#zip
+
+my_strings = ['a', 'b', 'c', 'd', 'e']
+my_numbers = [5,4,3,2,1]
+
+print(list(zip(my_strings,sorted( my_numbers))))
+
+#filter
+
+scores = [73, 20, 65, 19, 76, 100, 88]
+
+def above_fifty(score):
+    return score > 50
+
+print(list(filter(above_fifty, scores)))
+
+
+#reduece
+
+def accumulator1(acc, item):
+    return acc + item
+
+print(reduce(accumulator1, (my_numbers + scores)))
