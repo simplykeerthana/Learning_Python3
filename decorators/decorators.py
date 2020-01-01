@@ -53,3 +53,20 @@ def bye():
 
 hello1('hiiii')
 bye()
+
+#practical applications of decorator
+
+#module time
+from time import time
+
+def performance(fn):
+    def wrapper(*args, **kwargs):
+        result = fn(*args, **kwargs)
+        return result
+    return wrapper
+@performance 
+
+def long_tiime():
+    for i in range(10000000)
+        i*5
+
