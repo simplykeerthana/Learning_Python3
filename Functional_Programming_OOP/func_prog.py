@@ -6,11 +6,15 @@
 #functional Progrmming is all pure functions. 
 #pure functions - given the same input... always return the same output. and a functioin should not produce side effects
 
+#ALSO using lambda
+
 def multiply_by2(li): #this function does not touch the outside world . it should not also interact with print or anything
     new_list = []
     for item in li:
         new_list.append(item*2)
     return new_list
+
+
 
 print(multiply_by2([1,2,3]))
 #print(multiply_by2([1,2,3]))
@@ -27,6 +31,9 @@ def map_multiply_by2(item):
 
 
 print(list(map(map_multiply_by2,my_list)))
+
+print("multiply by 2 using lambda")
+print(list(map(lambda item: item*2, my_list)))
 
 
 #filter 
@@ -86,3 +93,19 @@ def accumulator1(acc, item):
     return acc + item
 
 print(reduce(accumulator1, (my_numbers + scores)))
+
+#lambda expressions - anonymous fucntions, only need once "lambda param: action(param)"
+
+#exercise lambda 
+
+my_list1 = [5,4,3]
+
+print(list(map(lambda num:  num** 2, my_list1)))
+
+#list sorting
+
+a = [(0, 2), (5, 2), (9, 9), (10, -1)]
+
+a.sort(key=lambda x: x[1] )
+
+print(a)
