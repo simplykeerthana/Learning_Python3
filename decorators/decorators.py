@@ -4,6 +4,8 @@ def hello(func):
     #print('hell00000000')
     func()
 
+
+
 #greet = hello
 
 #del hello #delete the name hello, but the function can't be deleted because greet is pointing to it
@@ -21,8 +23,8 @@ print(a)
 # accepts a function as its parameter
 # or returns a function
 
-def greet(func): # a fuction tha accepts another function
-    fucn()
+def greet1(func): # a fuction tha accepts another function
+    func()
 
 def greet2():
     def func():
@@ -31,3 +33,16 @@ def greet2():
 
 #write our own decorator
 
+
+
+
+def my_decorator(func):
+    def wrap_func():
+        func()
+    return wrap_func
+
+@my_decorator
+def hello1():
+    print('helloooo')
+
+hello()
