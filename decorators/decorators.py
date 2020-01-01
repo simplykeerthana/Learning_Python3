@@ -74,3 +74,25 @@ def long_tiime():
         i*5
 
 long_tiime()
+
+
+#authentication
+
+user1 = {
+    'name': 'sorna',
+    'valid': True
+}
+
+def authentication(fn):
+    def wrapper(*args, **kwargs):
+        if args[0]['valid']:
+            return fn(*args, **kwargs)
+    return wrapper
+
+@authentication
+
+def message_friends(user):
+    print('message has been sent')
+
+message_friends(user1)
+
