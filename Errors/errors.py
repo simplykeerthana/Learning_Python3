@@ -7,6 +7,8 @@
 while True: #try until an integer is entered
     try:
         age = int(input("what is your age? "))
+        # 10/age
+        #raise ValueError('hey cutt it out')
         print(age)
     except ValueError: #handling the error from above input, if the user enters non integer
         print('please enter a number')
@@ -15,7 +17,7 @@ while True: #try until an integer is entered
     else: 
         print('thank you!')
         break
-    finally:
+    finally: #runs regardless of anything
         print("ok, i am finally done")
 
 print()
