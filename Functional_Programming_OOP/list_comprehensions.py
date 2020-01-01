@@ -28,6 +28,9 @@ simple_dict = {
 }
 my_dict = {key:value**2 for key, value in simple_dict.items()}
 
+my_dict1 = {num: num*2 for num in [1,2,3]}
+
 print()
 print()
 print(my_dict)
+print(my_dict1)
