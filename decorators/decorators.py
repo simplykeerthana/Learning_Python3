@@ -17,3 +17,17 @@ print(a)
 
 # @decorator supercharges our function to have some extra features
 
+#high order decorator HOC
+# accepts a function as its parameter
+# or returns a function
+
+def greet(func): # a fuction tha accepts another function
+    fucn()
+
+def greet2():
+    def func():
+        return 5
+    return func
+
+#write our own decorator
+
