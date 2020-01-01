@@ -38,11 +38,18 @@ def greet2():
 
 def my_decorator(func):
     def wrap_func():
+        print('************')
         func()
+        print('************')
     return wrap_func
 
 @my_decorator
 def hello1():
     print('helloooo')
+    
+@my_decorator
+def bye():
+    print('goodbye 2019')
 
-hello()
+hello1()
+bye()
