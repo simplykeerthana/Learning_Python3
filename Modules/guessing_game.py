@@ -27,3 +27,5 @@ import pyjokes
 
 joke = pyjokes.get_joke('en','neutral')
 print(joke)
+
+#virtual environments to use different versions of a package in the same machine
