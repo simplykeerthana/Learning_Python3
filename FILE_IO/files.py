@@ -3,3 +3,9 @@
 
 #input a pdf file 
 #output a pdf file
+ 
+#open file 
+
+my_file = open('test.txt')
+
+print(my_file)
