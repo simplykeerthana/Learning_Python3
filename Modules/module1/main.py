@@ -47,6 +47,12 @@ print(random.randint(1,10))
 
 print(random.choice([1,2,3,4,5])) #makes a choice to print a element from the list
 
-my_list = [1,2,3]
+my_list = [1,2,3,4,5]
 random.shuffle(my_list)
 print(my_list)
+
+#sys module
+
+import sys
+print(sys)
+
