@@ -7,5 +7,8 @@ import utility
 
 print(utility) #when you run this statement, python generates a py cache folder 
 
+print(utility.diivide(2,3))
+print(utility.multiply(2,3))
 #to save time, python is going to run the cache file next next time utility is called if there is no change made to the program
 
+ 
