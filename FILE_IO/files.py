@@ -42,8 +42,8 @@ my_file1.close()
 
 #creating a file that does not exist
 
-with open('sad.txt', mode='w') as my_file2:
-    text = my_file2.write(':(')
+#with open('sad.txt', mode='w') as my_file2:
+ #   text = my_file2.write(':(')
 
 
 #file paths
@@ -53,3 +53,12 @@ with open('sad.txt', mode='w') as my_file2:
 
 #File IO Errors
 
+try:
+    with open('sad.txt', mode='r') as my_file3:
+        print(my_file3.read())
+except FileNotFoundError as err:
+    print('file does not exist ')
+    raise err
+except IOError as err:
+    print('IO error')
+    raise err
