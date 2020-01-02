@@ -24,10 +24,9 @@ def generator_function(num):
     for i in range(num):
         yield i #give the element 1 by 1 
     
-#for item in generator_function(1000):
- #   print(item) 
+for item in generator_function(1000):
+   print(item) 
 
-g = generator_function(100)
 
-print(g())
+
 
