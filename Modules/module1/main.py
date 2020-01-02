@@ -56,3 +56,7 @@ print(my_list)
 import sys
 print(sys)
 
+sys.argv
+
+# use sys module to create a guessing name, argv --> input from terminal
+
