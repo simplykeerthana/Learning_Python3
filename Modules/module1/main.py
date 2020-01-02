@@ -6,9 +6,11 @@
 #a folder in python is a pacake
 
 
-import utility #you can import many files
+#import utility #you can import many files
+
 #import shopping_cart, this won't work because shopping_cart is not a module
 
+from utility import multiply, diivide
 #import Shopping.more_shopping.shopping_cart
 from Shopping.more_shopping.shopping_cart import buy #just import the buy fucntion
 
