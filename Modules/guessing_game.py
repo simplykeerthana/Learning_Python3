@@ -21,6 +21,8 @@ while True:
 
 #python package index, pretty much any libraries you need can be foung here and installed
 
+#pyjokes installed other users modules
+
 import pyjokes
 
 joke = pyjokes.get_joke('en','neutral')
