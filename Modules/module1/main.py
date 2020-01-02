@@ -32,5 +32,17 @@ if __name__ == '__main__':
 
 # a python package creattes an __int__.py automatically, it may or may not be hidden by the IDE
 
+#Python modules are like standard library, there are tons of libraries to use, like email, math, stats and etc
 
-    
+import random
+
+print(random)  
+
+#help(random) is like man pages
+#dir(random) shows all the method random has
+
+print(random.random()) #is gonna give us a random number from 0 and 1
+
+print(random.randint(1,10))
+
+print(random.choice([1,2,3,4,5])) #makes a choice to print a element from the list
