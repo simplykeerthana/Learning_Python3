@@ -47,3 +47,9 @@ with open('sad.txt', mode='w') as my_file2:
 
 
 #file paths
+
+
+# path lib module - explore
+
+#File IO Errors
+
