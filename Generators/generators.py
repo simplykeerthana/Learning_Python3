@@ -16,5 +16,11 @@ my_list = make_list(100)
 print(my_list)
 
  #use a generator to access large number of elements in a list, one at a time
+#everything that is a generator is iterable, generator is a subset of a iterable
 
- 
+def generator_function(num):
+    for i in range(10000000):
+        yield i #give the element 1 by 1
+    
+for item in generator_function(1000):
+    print(item)
