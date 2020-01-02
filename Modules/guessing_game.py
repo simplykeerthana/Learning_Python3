@@ -18,3 +18,10 @@ while True:
     except ValueError:
         print('enter a number')
         continue
+
+#python package index, pretty much any libraries you need can be foung here and installed
+
+import pyjokes
+
+joke = pyjokes.get_joke('en','neutral')
+print(joke)
