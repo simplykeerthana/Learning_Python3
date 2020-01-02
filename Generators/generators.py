@@ -28,5 +28,70 @@ for item in generator_function(1000):
    print(item) 
 
 
+#testing time for non range and range functions
+
+from time import time
+
+def performance(fn):
+    def wrapper(*args, **kwargs):
+        t1 = time()
+        result = fn(*args, **kwargs)
+        t2 = time()
+        print(f"took {t2-t1}")
+        return result
+    return wrapper
+
+@performance 
+def long_time():
+    print('range')
+    for i in range(10000000):
+        i*5
+
+@performance
+def long_time1():
+    print('non-range')
+    for i in list(range(10000000)):
+        i*5
 
 
+long_time()
+long_time1()
+
+
+# another generator example: for loop and RANGE
+
+
+#for loop
+# all the iterations are in the same memory space
+def special_for(iterable):
+        iterator = iter(iterable)
+        while True:
+            try:
+                print(iterator)
+                print(next(iterator))
+            except StopIteration:
+                break
+
+special_for([1,2,3])
+
+#RANGE functions
+
+class MyGen():
+    current = 0
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if MyGen.current < self.last:
+            num = MyGen.current
+            MyGen.current +=1
+            return num
+        raise StopIteration
+
+
+gen = MyGen(0,100)
+
+for i in gen:
+    print(i)
