@@ -10,3 +10,9 @@
 # like for example the translator one we did. 
 # install pillow library for image processing
 
+#developers fundamentals
+
+#pick the right library for your projects
+#watch the library warnings
+#everything in software development is libraries and API's
+
