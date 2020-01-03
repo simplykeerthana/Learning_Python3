@@ -30,4 +30,5 @@ class TestMain(unittest.TestCase):
         self.assertEqual(result, 'please enter a number')
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
