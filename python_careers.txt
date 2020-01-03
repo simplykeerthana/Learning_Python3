@@ -1,0 +1,22 @@
+- Python and Javascript offers exceptional career
+- Python Developer
+- Software Engineer - Using python to solve problems
+- Research/Data Analyst using python
+- Data Scientist - strong mathematical and statistical knowledge to create algorithms and models
+- Backend Developer - Django
+- Testing/Automation - writing scripts or simulations to test products
+- Machine Learning 
+
+#getting the interview
+
+- Github
+- Website
+- mini projects a day 
+- 1-2 Big Projects
+	- over long time spent building 
+- Computer Science Blog - Medium write tech articles, research and write. 
+	- for ex. Write about exercises in Mosse Cybersecurity and post it in Medium
+
+
+START SOMEWHERE, Stand out from the crowd
+
