@@ -21,3 +21,5 @@ c = pattern.fullmatch(string)
 d = pattern.match(string)
 
 print(c)
+
+#relearn regex again
