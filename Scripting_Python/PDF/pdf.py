@@ -2,7 +2,8 @@
  #find the best library to process pdf - the best one is PyPDF2
  
 import PyPDF2
- 
+
+
 with open ('dummy.pdf', 'rb') as file: #you have to read a binary file
     reader = PyPDF2.PdfFileReader(file)
     #print(reader.numPages)
@@ -13,3 +14,17 @@ with open ('dummy.pdf', 'rb') as file: #you have to read a binary file
  #rotate the dummy.pdf by 180%
     with open('tilt.pdf', 'wb') as new_file:
          writer.write(new_file)
+         
+         
+#combine pdfs 
+
+
+import sys
+
+inputs = sys.argv[1:]
+
+def pdf_combiner(pdf_list):
+    for pdf in pdf_list:
+        print(pdf)
+        
+pdf_combiner(inputs)
