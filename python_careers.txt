@@ -20,3 +20,21 @@
 
 START SOMEWHERE, Stand out from the crowd
 
+Tweak Your Resume Well
+
+Now What:
+
+Python is found in 
+
+- Web development
+- image processing
+- Emails
+- SMS
+- Machine Learning
+- Twitter Bots
+- Data visualization
+- Data scrapping
+- general scripting
+- file processing
+- automation
+
