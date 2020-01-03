@@ -9,3 +9,4 @@
 #internet is the best friend, serach for libraries and packages to use instead of reinventing the wheel
 # like for example the translator one we did. 
 # install pillow library for image processing
+
