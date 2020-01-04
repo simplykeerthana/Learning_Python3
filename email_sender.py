@@ -23,6 +23,6 @@ email['subject'] = 'Prepare yourself to become a software engineer this 2020'
  with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
      smtp.ehlo()
      smtp.starttls() #encryption methods
-     
+     smtp.login('somthing@gmail.com', 'password')
      
      
