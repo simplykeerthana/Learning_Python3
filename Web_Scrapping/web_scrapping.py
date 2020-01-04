@@ -20,12 +20,13 @@
 
 import requests
 from bs4 import BeautifulSoup
+import pprint
 
 res = requests.get('https://news.ycombinator.com/news') #grab the html website from the server.
 soup = BeautifulSoup(res.text, 'html.parser')
 links = soup.select('.storylink')
-votes = soup.select('.score')
-print(votes[0].get('id'))
+subtext = soup.select('.subtext')
+
 #print(res.text)
 
 #print(soup.body) #you can grab anything with this, soup.body, soup.heading
@@ -37,15 +38,19 @@ print(votes[0].get('id'))
 
 #(soup.select('.storylink')[0]) #grabs the first story in the hacker news website
 
+def sort_stories_by_votes(hnlist):
+    return sorted(hnlist, key= lambda k:k['votes'])
 
-def create_custom_hn(links, votes):
+def create_custom_hn(links, subtext):
     hn = []
     for idx, item in enumerate(links):
         title = links[idx].getText()
         href = links[idx].get('href', None)
-        points = int(votes[idx].getText().replace('points', ''))
-        print(points)
-        hn.append({'title':title, 'link': href})
-    return hn
+        vote = subtext[idx].select('.score')
+        if len(vote):
+            points = int(vote[0].getText().replace('points', ''))
+            if points > 99:
+                 hn.append({'title':title, 'link': href, 'votes': points})
+    return sort_stories_by_votes(hn)
 
-print(create_custom_hn(links,votes))
+pprint.pprint(create_custom_hn(links, subtext))
