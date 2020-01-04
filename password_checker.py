@@ -50,6 +50,12 @@ def pwned_api_check(password):
 #pwned_api_check('123')
 
 def main(args):
-    pass
+    for password in args:
+        count - pwned_api_check(password)
+        if count:
+            print(f'{passsword} was found {count} times.... you should change your password')
+        else:
+            print(f'{password} was not found .... plesae carry on with it')
+            
 
 main(sys.argv[1:])
