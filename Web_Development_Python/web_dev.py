@@ -1,4 +1,9 @@
 # web development in python
 # building a portfolio website that is live and in production.
 
-# how do websites work 
+# how do websites work - their architecture
+# JS, HTML, CSS
+# in a browers we are able to search for a website, and the browser communicates with a server to retrieve the webpages for you to see. 
+# the browser sends an http/https request to the servers. 
+# the server sends the files of the website 
+# the server can be written in python
