@@ -8,6 +8,7 @@
 
 import requests
 import hashlib
+import sys
 
 #this API uses hasing, make the passwoed gibberish. use an hasing generator - https://passwordsgenerator.net/sha1-hash-generator/
 # you just need 5 characters of the hasg
@@ -23,6 +24,18 @@ def request_api_data(query_char):
         raise RuntimeError(f'Error fetching: {res.status_code}, check the api and try again')
     return res
 
+
+
+def get_password_leaks_count(hashes, hash_to_check ):
+    #rint(response.text) # you get all the passwords have been matched and hacked. 
+    #request_api_data(123)
+    hashes = (line.split(':') for line in hashes.text.splitlines())
+    for h, count in hashes:
+        print(h, count)
+        if h == hash_to_check:
+            return count
+        return 0
+    print(hashes)
 def pwned_api_check(password):
     #check password if it exists in API response
     print(password.encode('utf-8'))
@@ -32,9 +45,11 @@ def pwned_api_check(password):
     response = request_api_data(first5_char)
     print(first5_char, tail)
     print(response)
-    return response
-#request_api_data(123)
+    return get_password_leaks_count(response, tail)
 
+#pwned_api_check('123')
 
-pwned_api_check('123')
+def main(args):
+    pass
 
+main(sys.argv[1:])
