@@ -39,7 +39,7 @@ subtext = soup.select('.subtext')
 #(soup.select('.storylink')[0]) #grabs the first story in the hacker news website
 
 def sort_stories_by_votes(hnlist):
-    return sorted(hnlist, key= lambda k:k['votes'])
+    return sorted(hnlist, key= lambda k:k['votes'], reverse=True)
 
 def create_custom_hn(links, subtext):
     hn = []
@@ -54,3 +54,4 @@ def create_custom_hn(links, subtext):
     return sort_stories_by_votes(hn)
 
 pprint.pprint(create_custom_hn(links, subtext))
+
