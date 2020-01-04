@@ -34,7 +34,8 @@ def get_password_leaks_count(hashes, hash_to_check ):
         print(h, count)
         if h == hash_to_check:
             return count
-        return 0
+    return 0
+
     print(hashes)
 def pwned_api_check(password):
     #check password if it exists in API response
@@ -44,7 +45,7 @@ def pwned_api_check(password):
     first5_char, tail = sha1password[:5], sha1password[5:]
     response = request_api_data(first5_char)
     print(first5_char, tail)
-    print(response)
+    #print(response)
     return get_password_leaks_count(response, tail)
 
 #pwned_api_check('123')
