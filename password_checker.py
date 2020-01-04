@@ -8,5 +8,10 @@
 
 import requests
 
-url = 'https://api.pwnedpasswords.com/range/' + '_password123'
+#this API uses hasing, make the passwoed gibberish. use an hasing generator - https://passwordsgenerator.net/sha1-hash-generator/
+
+url = 'https://api.pwnedpasswords.com/range/' + 'CBFDA'
 res = requests.get(url)
+
+print(res) #response 400 is not good, usually means unauthorized, 200 means ok
+
