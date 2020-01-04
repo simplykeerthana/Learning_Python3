@@ -5,3 +5,8 @@
 
 #use cases of web scrapping
 # http://www.entropywebscraping.com/2017/01/01/big-list-web-scraping-uses/
+
+#robot.txt simply says what can be scrapped from a webpage. 
+#there exists chrome plugins that allow you to web scraper
+# check the website terms and conditions before you web scrape
+
