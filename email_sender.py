@@ -11,13 +11,19 @@ from email.message import EmailMessage
 
 # the entire 'email' is an object
 
+from string import Template
+from pathlib import Path 
+
+html = Template(Path('index.html').read_text())
+
 email = EmailMessage()
 
 email['from'] = 'Keerthana Madhavan'
 email['to'] = 'mkeerthanarockz@gmail.com'
 email['subject'] = 'Prepare yourself to become a software engineer this 2020'
 
-email.set_content('I will be a python Master!')
+
+email.set_content(html.substitute({'name': 'TinTin'}), 'html')
  
  #use the smtp server to login to our gmail and send it 
  #smpt is customed to whatever email you use
