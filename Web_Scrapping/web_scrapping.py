@@ -23,9 +23,18 @@ from bs4 import BeautifulSoup
 import pprint
 
 res = requests.get('https://news.ycombinator.com/news') #grab the html website from the server.
+res2 = requests.get('https://news.ycombinator.com/news?p=2')
 soup = BeautifulSoup(res.text, 'html.parser')
 links = soup.select('.storylink')
 subtext = soup.select('.subtext')
+
+soup2 = BeautifulSoup(res.text, 'html.parser')
+links2 = soup.select('.storylink')
+
+subtext2 = soup.select('.subtext')
+
+mega_links = links + links2
+mega_subtext = subtext + subtext2
 
 #print(res.text)
 
@@ -53,5 +62,10 @@ def create_custom_hn(links, subtext):
                  hn.append({'title':title, 'link': href, 'votes': points})
     return sort_stories_by_votes(hn)
 
-pprint.pprint(create_custom_hn(links, subtext))
+pprint.pprint(create_custom_hn(mega_links, mega_subtext))
 
+#what to do next steps with web scarpping
+# learn more of Beautiful SOup
+# most websites have API's for webscrape
+# framework scrapy . to scrape massive websites
+#be ethical when web scrapping
