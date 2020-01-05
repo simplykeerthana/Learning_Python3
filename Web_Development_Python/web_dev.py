@@ -7,3 +7,5 @@
 # the browser sends an http/https request to the servers. 
 # the server sends the files of the website 
 # the server can be written in python
+
+# create your portfolio now. with html, css, and basic javascript
