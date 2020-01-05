@@ -35,3 +35,4 @@ def blog2():
 #for css and java script  you need a static folder
 
 #MIME Type - Multi-Purpose Internet Extension
+#we can use a JSON data to a server to build and display a website
