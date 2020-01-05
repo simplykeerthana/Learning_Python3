@@ -6,4 +6,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Keerthana!, you aree on a road to become a software engineer'
+    return 'Hello, Keerthana!, you aree on a road to become a software engineer! ultimate vision for 2020'
+
+@app.route('/blog')
+def blog():
+    return 'I have create a blog'
+
