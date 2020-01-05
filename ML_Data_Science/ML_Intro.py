@@ -10,3 +10,10 @@
 
 #data 
 # spreadshseets to relation db - big data (no sql, mongoDB) -> machine learning
+
+#What is Machine learnign
+# to predict results of incoming data
+# categories of ML - 
+#supevised - classification, regression
+#unsupervised - clustering, association ruke learning
+#reinforcement -  skills acquistion and real time learning
