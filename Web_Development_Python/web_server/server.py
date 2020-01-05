@@ -8,10 +8,11 @@ app = Flask(__name__)
 #render_template allows you to send html files.
 #print(__name__) #this prints __main__
 
-@app.route('/')
-def hello_world():
-    print( url_for('static', filename='bolt.ico'))
-    return render_template('index.html')
+#url parameters
+@app.route('/<username>/<int:post_id>')
+def hello_world(username=None,  post_id=None):
+   # print( url_for('static', filename='bolt.ico'))
+    return render_template('index.html', name=username, post_id=post_id)
 
 @app.route('/about.html')
 def about():
