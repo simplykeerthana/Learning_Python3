@@ -17,3 +17,4 @@
 #supevised - classification, regression
 #unsupervised - clustering, association ruke learning
 #reinforcement -  skills acquistion and real time learning
+
