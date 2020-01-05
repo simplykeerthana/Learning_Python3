@@ -33,3 +33,5 @@ def blog2():
     return 'this is my dogs'
 
 #for css and java script  you need a static folder
+
+#MIME Type - Multi-Purpose Internet Extension
