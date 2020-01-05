@@ -10,3 +10,11 @@
 
 # create your portfolio now. with html, css, and basic javascript
 # 
+
+# flask is a server for  secure http server
+# django is pythons version 
+
+#install the virtual environment  in the working directory
+# using python3 -m venv venv
+
+#then activate the environment
